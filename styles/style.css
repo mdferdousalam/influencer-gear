@@ -1,6 +1,73 @@
-/* 3 fonts poppins and inter and manrope imported  */
+/*====================================================
+    3 fonts poppins and inter and manrope imported
+====================================================  */
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Manrope:wght@700&family=Poppins:wght@500;600;700&display=swap");
 
+.container {
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center; */
+  width: 1440px;
+}
+
+/* =================================================
+            Hero Section Style here
+===================================================== */
+
+/* ////////////////////////////////////////////////
+            Featured Section Style here
+/////////////////////////////////////////////////// */
+.featured {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 96px;
+  justify-items: center;
+  margin-top: 100px;
+  margin-bottom: 121px;
+}
+.featured-thumbnail {
+  justify-content: center;
+  align-items: center;
+  border-radius: 7px;
+}
+.featued-description p {
+  width: 501px;
+}
+.featued-description button {
+  width: 155px;
+  height: 44px;
+  background: #e02c6d;
+}
+.featued-description button a {
+  padding: 10px 15px;
+  text-decoration: none;
+  color: #ffffff;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+}
+.featued-description button span {
+  padding-left: 8px;
+}
+.featured-title {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 38px;
+  color: #0a0826;
+}
+
+.featued-description p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  color: #6c6c6c;
+}
+/* ++++++++++++++++++++++++++++++++
+   Footer Style here
++++++++++++++++++++++++++++++++++++ */
 footer {
   /* width: 1440px; */
   height: 239px;
