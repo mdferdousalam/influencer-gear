@@ -1,4 +1,43 @@
-/* 2 fonts poppins and inter imported  */
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Poppins:wght@500;600;700&display=swap");
+/* 3 fonts poppins and inter and manrope imported  */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Manrope:wght@700&family=Poppins:wght@500;600;700&display=swap");
 
+footer {
+  /* width: 1440px; */
+  height: 239px;
+  background-color: #0a0826;
+  width: 100%;
+}
 
+.coppyright {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.coppyright h3 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  color: #ffffff;
+}
+
+.coppyright p {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  color: #d9dbe1;
+}
+.social-links {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 16px;
+}
+.social-links a {
+  background: #ffffff;
+  border-radius: 15px;
+  padding: 5px;
+}
